@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/WebAppIntersection/IntersectionWebService?wsdl" uri="src/conf/xml-resources/web-service-references/IntersectionWebService/wsdl/localhost_8080/WebAppIntersection/IntersectionWebService.wsdl"/>
+    <system systemId="file:/home/rmg/Proyectos/Geocento/WebAppIntersection/web/WEB-INF/wsdl/localhost_8080/WebAppIntersection/IntersectionWebService.wsdl" uri="src/conf/xml-resources/web-service-references/IntersectionWebService/wsdl/IntersectionWebService.wsdl"/>
+    <system systemId="http://localhost:8080/WebAppIntersection/IntersectionWebService?xsd=1" uri="src/conf/xml-resources/web-service-references/IntersectionWebService/wsdl/localhost_8080/WebAppIntersection/IntersectionWebService.xsd_1.xsd"/>
+</catalog>

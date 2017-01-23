@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Intersection test client</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>example 1 (<a href="http://spatialreference.org/ref/epsg/3041/">EPSG:3041</a>): POLYGON((-12.0000 36.0000, -6.0000 36.0000, -6.0000 62.3300,-12.0000  62.3300, -12.0000 36.0000))</p>
+        <p>example 2 (<a href="http://spatialreference.org/ref/epsg/3042/">EPSG:3042</a>): POLYGON((-6.0000 34.7500, 0.0000 34.7500, 0.0000 62.3300, -6.0000  62.3300, -6.0000 34.7500))</p>
+        <p>example 3: POLYGON((-3.096 43.657,-2.064 43.400, -1.921 42.625, -3.242 42.562, -3.096 43.657))</p>        
+
+        
+        <form name="Test" method="post" action="IntersectionServlet">            
+            <p>Enter geometry:</p>
+            <p>
+            <p><textarea rows="7" name="geometry" cols="40" ID="geometry"></textarea></p>
+            <p>
+            <input type="submit" value="Intersection" name="intersectionNutton">
+        </form>
+    </body>
+</html>
